@@ -1,2 +1,2 @@
 # KerasApplications
-Mobilenetv2 from keras applications with inverted residual blocks.
+Famous Architectures from the keras repository, written in a more readable way.
