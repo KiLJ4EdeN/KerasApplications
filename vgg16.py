@@ -2,7 +2,7 @@ from tensorflow.keras import layers, models
 
 
 def VGG16(include_top=True,
-          input_shape=None,
+          input_shape=(224, 224, 3),
           pooling=None,
           classes=1000):
 
@@ -90,3 +90,7 @@ def VGG16(include_top=True,
     model = models.Model(img_input, x, name='vgg16')
 
     return model
+
+if __name__ == '__main__':
+    mod = VGG16()
+    print(mod.summary())
