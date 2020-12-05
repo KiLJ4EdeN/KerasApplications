@@ -191,5 +191,5 @@ def MobileNetV2(input_shape=(224, 224, 3),
 
 
 if __name__ == '__main__':
-    model = MobileNetV2()
-    print(model.summary())
+    mod = MobileNetV2()
+    print(mod.summary())
